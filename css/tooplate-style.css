@@ -14,7 +14,7 @@ body {
     position: relative;
 }
 
-h1 { font-size: 2.8rem; text-transform: uppercase;}
+h1 { font-size: 3rem; text-transform: uppercase;}
 
 #tm-bg {
     position: fixed;
@@ -51,6 +51,7 @@ p {
     line-height: 1.9;
     letter-spacing: 1px;
 }
+
 
 .tm-main-content {
     display: flex;    
@@ -217,8 +218,10 @@ p {
 /* Our Work */
 .tm-slider-img {
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 10px;  
 }
+
+
 
 .slick-dots li button:before {
     font-size: 20px;
@@ -309,14 +312,24 @@ footer {
     font-size: small;
 }
 
-a, button { transition: all 0.3s ease; }
+a { transition: all 0.3s ease; color: #a9a9a9;
+    
+}
+
 a:hover,
 a:focus {
 	text-decoration: none;
 	outline: none;
+    color: #cecece;
+    transition: 0.5s;
 }
 
 p:last-child { margin-bottom: 0; }
+
+.img-cap{
+    font-size: 0.75em;
+    margin: 10px;
+}
 
 @media (min-width: 900px) {
     .container { max-width: 900px; }
