@@ -320,7 +320,7 @@ a:hover,
 a:focus {
 	text-decoration: none;
 	outline: none;
-    color: #cecece;
+    color: #fff;
     transition: 0.5s;
 }
 
